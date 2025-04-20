@@ -5,7 +5,7 @@ body {
     margin-left: auto; /*Center page*/
     margin-right: auto; /*Center page*/
     background: #ffffff; /*Page background color*/
-    max-width: 8.5in; /*Page width*/
+    width: 8.5in; /*Page width*/
     padding-top: 0.5in; /**/
     padding-bottom: 0.5in;
     padding-left: 0.5in;
