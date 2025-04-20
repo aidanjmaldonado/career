@@ -1,0 +1,104 @@
+html {
+    background-color: #353535;
+}
+body {
+    margin-left: auto; /*Center page*/
+    margin-right: auto; /*Center page*/
+    background: #ffffff; /*Page background color*/
+    max-width: 8.5in; /*Page width*/
+    padding-top: 0.5in; /**/
+    padding-bottom: 0.5in;
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+    margin-top: 0in; /* Make page touch top of viewport*/
+    font-size: 13px; /*Main font size*/
+    font-family: "IBM Plex Sans Condenses", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: -0.01em;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color: #01161e;
+    box-shadow: 0px 0px 10px 10px;
+}
+
+b {
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+i {
+    font-weight: 200;
+}
+
+hr {
+    margin-top: 0.25in;
+    height: 1px;
+    width: 8in;
+    background-color: #353535;
+    margin-left: -0.25in;
+    border: none;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    margin: auto;
+    margin-bottom: 0.25in;
+    text-align: center;
+}
+
+ul {
+    line-height: 1.4;
+    margin-top: 0in;
+}
+
+.contactLine {
+    color: black;
+    background-color: white;
+    padding-left: 0.25in;
+    padding-right: 0.25in;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.taggedLine {
+    margin-top: 0.1in;
+}
+
+.list {
+    margin-top: 0in;
+}
+
+.taggedElement {
+    display: inline-block;
+    margin: auto;
+}
+
+.taggedElement.right {
+    float: right;
+    text-align: right;
+}
+
+.indentedElement {
+    display: inline-block;
+    margin: auto;
+}
+
+.indentedElement.right {
+    float: right;
+    text-align: right;
+    font-size: 10px;
+}
+
+.indentedElement.left{
+    margin-left: 0.5in;
+}
+
+.description {
+    margin: auto;
+}
