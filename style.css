@@ -31,15 +31,6 @@ i {
     font-weight: 200;
 }
 
-hr {
-    margin-top: 0.25in;
-    height: 1px;
-    width: 8in;
-    background-color: #353535;
-    margin-left: -0.25in;
-    border: none;
-}
-
 h1 {
     margin: auto;
     text-align: center;
@@ -102,4 +93,38 @@ ul {
 
 .description {
     margin: auto;
+}
+
+@media print {
+    hr {
+        border: none;
+        height: 1px;
+        background-color: #000000; /* Dark line for print */
+        width: 100%;
+        margin-top: 0.25in;
+        margin-bottom: 0.25in;
+    }
+
+    /* hr {
+        margin-top: 0.25in;
+        height: 1px;
+        width: 8in;
+        background-color: #353535;
+        margin-left: -0.25in;
+        border: none;
+    } */
+
+    body {
+        box-shadow: none; /* Optional: Remove shadow in print */
+    }
+
+    html {
+        background-color: #ffffff;
+    }
+    a {
+        color: #0000EE; /* Standard link blue */
+        text-decoration: underline; /* Optional, ensure underline remains */
+        -webkit-print-color-adjust: exact; /* For Safari/Chrome to respect colors */
+        print-color-adjust: exact;        /* For Firefox/others */
+    }
 }
